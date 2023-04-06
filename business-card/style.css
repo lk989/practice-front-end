@@ -1,0 +1,32 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #5f0f40;
+}
+
+.image{
+    width: 180px;
+    transition: transform .2s;
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+.text{
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .2s;
+}
+
+.text:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    display: flex;
+    background: #f7ede2;
+    width: 450px;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 6px solid #b5838d;
+}
